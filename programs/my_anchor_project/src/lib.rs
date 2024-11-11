@@ -20,23 +20,6 @@ use anchor_lang::prelude::*;
 
 declare_id!("EfAYH5dAoH3sx5PW7BqhScec9MQFdMkbSxVxERXvBj4p");
 
-// #[program]
-// pub mod my_nft_project {
-//     use super::*;
-//     pub fn create_nft(ctx: Context<CreateNFT>, uri: String) -> Result<()> {
-//         msg!("Minting NFT with URI: {}", uri);
-//         Ok(())
-//     }
-// }
-
-// #[derive(Accounts)]
-// pub struct CreateNFT<'info> {
-//     #[account(signer)]
-//     pub user: AccountInfo<'info>,
-//     pub system_program: Program<'info, System>,
-// }
-
-
 #[program]
 pub mod my_program {
     use super::*;
